@@ -1,7 +1,7 @@
 def BMICalc(height, weight):
     result = (height / weight) ** 2
 
-    if result < 18.5:
+    if result < 18.50:
         return "NIEDOWAGA"
     elif 18.5 >= result >= 25:
         return "NORMA"
